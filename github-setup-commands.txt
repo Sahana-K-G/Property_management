@@ -1,0 +1,13 @@
+//initial setup
+1. git init
+2. git add .
+3. git commit -m "any message"
+4. git remote add origin https://github.com/Sahana-K-G/Property_management.git
+5. git remote set-url origin https://Sahana-K-G:Accesstocken@github.com/Sahana-K-G/Property_management.git
+6.  git push --set-upstream origin master
+
+//from next setup
+1. git pull
+2. git add .
+3. git commit -m "any message"
+4. git push
