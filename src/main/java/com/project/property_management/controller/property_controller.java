@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.project.property_management.Service.PropertySave;
+
 import com.project.property_management.dto.property_dto;
 
 import lombok.Value;
@@ -26,6 +27,7 @@ public class property_controller {
 	
  @Autowired
  private PropertySave prop_save;
+ 
 	
 @GetMapping("/hello")
  public String hello() {

@@ -12,8 +12,7 @@ public class Property_convert {
 				Property_entity pe=new Property_entity();
 				pe.setTitle(prop_dto.getTitle());
 				pe.setDescription(prop_dto.getDescription());
-				pe.setOwner(prop_dto.getOwner());
-				pe.setOwneremail(prop_dto.getOwneremail());
+				
 				pe.setPrice(prop_dto.getPrice());
 				return pe;
 	}
@@ -23,8 +22,7 @@ public class Property_convert {
 				dto.setId(prop_entity.getId());
 				dto.setTitle(prop_entity.getTitle());
 				dto.setDescription(prop_entity.getDescription());
-				dto.setOwner(prop_entity.getOwner());
-				dto.setOwneremail(prop_entity.getOwneremail());
+				
 				dto.setPrice(prop_entity.getPrice());
 				return dto;
 	}

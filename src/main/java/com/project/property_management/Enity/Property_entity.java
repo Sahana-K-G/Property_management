@@ -18,8 +18,7 @@ public class Property_entity {
 	@Column(name="Property_title",nullable=false)//default name will be "title"
 	private String title;
 	 private String description;
-	 private String owner;
-	 private String owneremail;
+	 
 	 private double price;
 	public long getId() {
 		return id;
@@ -39,18 +38,7 @@ public class Property_entity {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getOwner() {
-		return owner;
-	}
-	public void setOwner(String owner) {
-		this.owner = owner;
-	}
-	public String getOwneremail() {
-		return owneremail;
-	}
-	public void setOwneremail(String owneremail) {
-		this.owneremail = owneremail;
-	}
+	
 	public double getPrice() {
 		return price;
 	}

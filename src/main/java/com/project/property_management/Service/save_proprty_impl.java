@@ -3,7 +3,6 @@ package com.project.property_management.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -45,8 +44,7 @@ public class save_proprty_impl implements PropertySave{
 			Property_entity pe=optn.get();
 			pe.setTitle(prop_dto.getTitle());
 			pe.setDescription(prop_dto.getDescription());
-			pe.setOwner(prop_dto.getOwner());
-			pe.setOwneremail(prop_dto.getOwneremail());
+			
 			pe.setPrice(prop_dto.getPrice());
 		dto=prop_convert.converEntitytoDTO(pe);
 			repo.save(pe);
